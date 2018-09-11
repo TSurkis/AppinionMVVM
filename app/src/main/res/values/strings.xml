@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppinionMVVM</string>
+    <string name="quotes_screen_time_frame_error_text">Please wait %d milliseconds until the next request</string>
+</resources>
