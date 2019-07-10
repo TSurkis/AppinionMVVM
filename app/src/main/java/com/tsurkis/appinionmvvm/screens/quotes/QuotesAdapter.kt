@@ -1,6 +1,6 @@
 package com.tsurkis.appinionmvvm.screens.quotes
 
-import android.support.v7.recyclerview.extensions.ListAdapter
+import androidx.recyclerview.widget.ListAdapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

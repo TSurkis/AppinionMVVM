@@ -1,6 +1,6 @@
 package com.tsurkis.appinionmvvm.screens.quotes
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
 import com.tsurkis.appinionmvvm.R
@@ -8,7 +8,7 @@ import com.tsurkis.appinionmvvm.remoteapi.opinionatedquotes.responseobjects.Quot
 
 class QuoteViewHolder(
         rootView: View
-) : RecyclerView.ViewHolder(rootView) {
+) : androidx.recyclerview.widget.RecyclerView.ViewHolder(rootView) {
 
     private val quoteTV: TextView = rootView.findViewById(R.id.quoteTextView)
     private val authorTV: TextView = rootView.findViewById(R.id.authorTextView)

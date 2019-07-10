@@ -21,7 +21,7 @@ class OpinionatedAPIExecutor @Inject constructor(
 
                     override fun onFailure(call: Call<RandomOpinionatedQuotesResponseObject>, t: Throwable) {
                         // Ignored for the purpose of simplicity for this sample app.
-                        Log.d("hmm", "hmm")
+                        Log.d("Error", "Error")
                     }
 
                     override fun onResponse(call: Call<RandomOpinionatedQuotesResponseObject>, response: Response<RandomOpinionatedQuotesResponseObject>) {

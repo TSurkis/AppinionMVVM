@@ -8,6 +8,7 @@ class MainThreadExecutor : Executor {
     private val mainThread: Handler = Handler(Looper.getMainLooper())
 
     override fun execute(command: Runnable?) {
+        command ?: return
         mainThread.post(command)
     }
 

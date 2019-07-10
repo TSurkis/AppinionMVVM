@@ -1,8 +1,8 @@
 package com.tsurkis.appinionmvvm.screens.quotes
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.tsurkis.appinionmvvm.application.ThreadManager
 import com.tsurkis.appinionmvvm.remoteapi.opinionatedquotes.responseobjects.Quote
 import com.tsurkis.appinionmvvm.repositories.OpinionatedQuotesRepository

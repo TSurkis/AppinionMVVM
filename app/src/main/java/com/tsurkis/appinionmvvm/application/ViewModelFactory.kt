@@ -1,7 +1,7 @@
 package com.tsurkis.appinionmvvm.application
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import com.tsurkis.appinionmvvm.dependency.injection.annotations.ApplicationScope
 import javax.inject.Inject
 import javax.inject.Provider
